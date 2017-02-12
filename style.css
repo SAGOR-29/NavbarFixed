@@ -1,0 +1,77 @@
+#home{
+	background: red;
+	height: 100vh;
+	width: 100%;
+}
+
+#about{
+	background: green;
+	height: 100vh;
+	width: 100%;
+}
+
+#service{
+	background: blue;
+	height: 100vh;
+	width: 100%;
+}
+
+#contact{
+	background: purple;
+	height: 100vh;
+	width: 100%;
+}
+
+.navigation{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+	float: none;
+	
+}
+
+.navbar{
+	background: #000;
+	z-index: 999;
+	bottom: 0px;
+	left: 0;
+	width: 100%;
+	margin-bottom: 0;
+	border-radius: 0;
+	position: absolute;
+	
+}
+
+
+
+.navbar li.active::after {
+	position: absolute;
+	bottom: 0;
+	left: 20%;
+	content: "";
+	height: 3px;
+	width: 60%;
+	background: #fff;
+}
+
+
+
+.nav li {
+	display: inline-block;
+	padding: 10px 10px 10px;
+	position: relative;
+	text-align: center;
+	float: none;
+}
+
+.navbar li a{
+	color: #fff;
+	text-decoration: none;
+	padding-bottom: 5px;
+	
+}
+
+.navbar li a:hover{
+	background: none;
+}
